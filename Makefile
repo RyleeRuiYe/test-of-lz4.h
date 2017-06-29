@@ -1,6 +1,6 @@
 obj-m += compresstest.o
 CURRENT_PATH := $(shell pwd)
-LINUX_KERNEL := 4.10.0
+LINUX_KERNEL := $(uname -r)
 
 LINUX_KERNEL_PATH := /usr/src/linux-source-$(LINUX_KERNEL)/linux-source-$(LINUX_KERNEL)
 
