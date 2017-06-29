@@ -1,0 +1,1 @@
+# test-of-lz4.h
